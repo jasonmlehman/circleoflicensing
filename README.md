@@ -1,4 +1,4 @@
-# Free'ing up very expensive microsoft licenses!
+# Free'ing up Microsoft licenses!
 
 Busineses that use Office 365 often have various levels of Microsoft licenses that may include standard and enhanced licenses.  For example, let's say you're in manufacturing and you have users that only need a Kiosk license or even an office only (F3/E1, etc) license.  These licenses are MUCH cheaper than the Microsoft enhanced licenses like E3/E5.  Often times businesses find themselves in a position where they have an astronomical bill when it's time to true up licenses.  
 
