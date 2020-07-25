@@ -56,7 +56,7 @@ o365creds = 'path to json credential file'
 
 Change to
 
-o365creds = 'c:\temp\o365cred.json'
+o365creds = 'c:\\temp\\o365cred.json'
 
 6)  Execute the python script: python c:\temp\checklicensing.py
 
