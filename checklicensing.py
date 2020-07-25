@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 import codecs
 
 # Office 365 Credentials
-o365creds = '/mnt/nfs/infradev/config/msgraph.json'
+o365creds = 'path to json credential file'
 
 # Connet to Microsoft GraphAPI
 graphapi = msgraphapi(o365creds)
