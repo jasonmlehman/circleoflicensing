@@ -22,4 +22,4 @@ This will not work for everyone.  This just gets a list of users that have no of
 
 I check a lot of other attributes for the user that I will append to the script.  I check their creation date in active directory and only move users back to E1/F3 if their account has been active for more than 30 days (gives users time to get a device and activate office).
 
-Use this as a starting point and let me know how you might want it ehnahced!  
+Use this as a starting point and let me know how you might want it enhanced!  
