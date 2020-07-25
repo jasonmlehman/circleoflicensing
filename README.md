@@ -23,3 +23,41 @@ This will not work for everyone.  This just gets a list of users that have no of
 I check a lot of other attributes for the user that I will append to the script.  I check their creation date in active directory and only move users back to E1/F3 if their account has been active for more than 30 days (gives users time to get a device and activate office).
 
 Use this as a starting point and let me know how you might want it enhanced!  
+
+# Not a python guru and need help getting this going?
+
+1) Download python: https://www.python.org/downloads/release/python-382/
+
+2) Run this command to install the graphAPI libraries
+
+   pip install git+https://github.com/jasonmlehman/msgraphapi.git
+
+3) Download checklicensing.py from this repo: https://github.com/jasonmlehman/circleoflicensing/blob/master/checklicensing.py and put it somewhere on your device.  i.e. c:\temp\checklicensing.py
+
+4)  Create a json file that contains your office 365 application credentials
+
+i.e c:\temp\o365cred.json
+
+The content will look something like this:
+
+{
+        "clientid": "***************",
+        "clientsecret": "******************",
+        "loginurl": "https://login.microsoftonline.com/",
+        "tenant": "yourtenantname.onmicrosoft.com",
+        "tenant_guid": "your tenant guid"
+}
+
+If you don't have that info you can follow my instructions here to create it:  https://github.com/jasonmlehman/msgraphapi
+
+5)  Update the checklicensing script and change this line to match where you saved the file above:
+
+o365creds = 'path to json credential file'
+
+Change to
+
+o365creds = 'c:\temp\o365cred.json'
+
+6)  Execute the python script: python c:\temp\checklicensing.py
+
+7)  After that is created your CSV is generated with users that may not need enhanced licensing
