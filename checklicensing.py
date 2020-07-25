@@ -12,10 +12,10 @@ from datetime import datetime, timezone
 import codecs
 
 # Office 365 Credentials
-o365creds = 'path to json credential file'
+o365creds = 'c:\\temp\\o365cred.json'
 
 # Connet to Microsoft GraphAPI
-graphapi = msgraphapi(o365creds)
+graphapi = msgraphapi.msgraphapi(o365creds)
 
 # This generates a URL to a CSV which will have all your Office pro plus activations
 url = graphapi.getsubs()
