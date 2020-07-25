@@ -20,9 +20,9 @@ There might be other reasons (at times) that a user needs the enhanced license. 
 
 This will not work for everyone.  This just gets a list of users that have no office pro plus activations.  If they don't have an activation ask yourself why they are getting an enhanced license?  Does the user need a large mailbox? Does the user need shared mailboxes?  If so, you can add other exchange online powershell scripts to query those users to see if they are using those functions.
 
-I check a lot of other attributes for the user that I will append to the script.  I check their creation date in active directory and only move users back to E1/F3 if their account has been active for more than 30 days (gives users time to get a device and activate office).
+I check a lot of other attributes for the user that I will append to the script.  I check their creation date in active directory and only move users back to E1/F3 if their account has been active for more than 30 days (gives users time to get a device and activate office). I check device logins to see if the user may have a dedicated device (for F3).
 
-Use this as a starting point and let me know how you might want it enhanced!  
+Use this as a starting point.  
 
 # Not a python guru and need help getting this going?
 
