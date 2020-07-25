@@ -17,3 +17,9 @@ You will need my msgraphapi.  Follow the instructions to setup your connection b
 Glad you asked.  How do I determine if a user is using a license or not?  Think about the SKU's and what is really determing if a user is using that SKU.  A simple comparison would be an F3 and an E3 user.  The only "real" difference is whether that user has activated office Pro Plus.  If they aren't using Office Pro Plus why do they have the license?  Mobile, Teams, Onedrive are no different between the SKU's.  So, if we can determine who has activiated Office pro plus within a specified time period then we can assume that user doesn't need enhanced licensing.
 
 There might be other reasons (at times) that a user needs the enhanced license.  Litigation hold might be a reason to give a user the enhanced license but that is only temporary and you can put in operational processes to account for that.
+
+This will not work for everyone.  This just gets a list of users that have no office pro plus activations.  If they don't have an activation ask yourself why they are getting an enhanced license?  Does the user need a large mailbox? Does the user need shared mailboxes?  If so, you can add other exchange online powershell scripts to query those users to see if they are using those functions.
+
+I check a lot of other attributes for the user that I will append to the script.  I check their creation date in active directory and only move users back to E1/F3 if their account has been active for more than 30 days (gives users time to get a device and activate office).
+
+Use this as a starting point and let me know how you might want it ehnahced!  
