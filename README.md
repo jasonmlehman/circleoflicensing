@@ -14,7 +14,7 @@ You will need my msgraphapi.  Follow the instructions to setup your connection b
 
 # How?
 
-Glad you asked.  How do I determine if a user is using a license or not?  Think about the SKU's and what is really determing if a user is using that SKU.  A simple comparison would be an F3 and an E3 user.  The only "real" difference for my organzation with the deskless users is whether that user has activated office Pro Plus.  If they aren't using Office Pro Plus why do they have the license?  Mobile, Teams, Onedrive are no different between the SKU's.  So, if we can determine who has activiated Office pro plus within a specified time period then we can assume that user doesn't need enhanced licensing.
+Glad you asked.  How do I determine if a user is using a license or not?  Think about the SKU's and what is really determing if a user is using that SKU.  A simple comparison would be an F3 and an E3 user.  The only "real" difference might be with the deskless users and whether that user has activated office Pro Plus.  If they aren't using Office Pro Plus why do they have the license?  Mobile, Teams, Onedrive are no different between the SKU's.  So, if we can determine who has activiated Office pro plus within a specified time period then we can assume that user doesn't need enhanced licensing.
 
 There might be other reasons (at times) that a user needs the enhanced license.  Litigation hold might be a reason to give a user the enhanced license but that is only temporary and you can put in operational processes to account for that.
 
